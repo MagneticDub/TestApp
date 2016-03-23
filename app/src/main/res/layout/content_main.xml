@@ -31,11 +31,14 @@
         android:id="@+id/Name_is_Ryan" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
         android:background="@android:color/darker_gray"
         android:textAllCaps="true"
         android:text="start"
+        android:textColor="@android:color/white"
         android:id="@+id/buttonClick" />
 </RelativeLayout>
