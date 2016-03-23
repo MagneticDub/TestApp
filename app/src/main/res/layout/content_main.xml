@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Hello my name is Ryan Neave"
+        android:text="Name of this app is Ryan"
         android:layout_below="@id/Welcome_text"
         android:id="@+id/Name_is_Ryan" />
 
