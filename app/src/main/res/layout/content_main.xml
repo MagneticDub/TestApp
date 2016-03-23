@@ -13,25 +13,29 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
-        android:id="@+id/Hello_World"
+        android:id="@+id/Welcome_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp"
+        android:textSize="32sp"
+        android:textAllCaps="true"
+        android:text="Welcome!" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:text="Hello my name is Ryan Neave"
-        android:layout_below="@id/Hello_World"
-        android:id="@+id/textView" />
+        android:layout_below="@id/Welcome_text"
+        android:id="@+id/Name_is_Ryan" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click"
-        android:id="@+id/buttonClick"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="54dp" />
+        android:background="@android:color/darker_gray"
+        android:layout_centerInParent="true"
+        android:textAllCaps="true"
+        android:text="start"
+        android:id="@+id/buttonClick" />
 </RelativeLayout>
